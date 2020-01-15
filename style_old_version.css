@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a { 
+    color: rgb(77, 77, 77); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(77, 77, 77);
+}
+
+#topnav {
+ padding: 17px 30px;
+  font-size: 13px;
+}
+
+#navbar {
+position: relative;
+text-align: right;
+}
+
+.linknav {
+  padding-left: 10px;
+}
+
+#signin {
+  border: 0;
+  border-radius: 1.5px;
+  padding: 6px 15px;
+  background-color: rgb(83, 137, 236);
+  font-weight: bold;
+  color: white;
+}
+
+#signbutton {
+  color: white;
+}
+
+#logo {
+  text-align: center;
+  padding-top: 180px;
+}
+
+#form {
+  margin: 10px;
+  text-align: center;
+}
+
+input {
+  width: 450px;
+  height: 34px;
+  padding: 22px 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 0;
+  margin: 30px;
+  box-shadow: 0px 0px 5px rgb(172, 172, 172);
+}
+
+#buttons {
+  margin: 10px;
+  text-align: center;
+}
+
+.searchbutton {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: rgb(236, 236, 236);
+  border: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+#footer {
+  color: rgb(0, 0, 0, .54);
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(236, 236, 236);  
+  width: 100%;
+}
+
+#country {
+  border: 1px solid rgb(199, 199, 199);
+  padding: 1px 30px 1px 30px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+#footer2 {
+    line-height: 40px;
+}
+
+#leftfooter {
+  float: left;
+  font-size: 13px;
+}
+
+#rightfooter {
+  float: right;
+  font-size: 13px;
+  padding-right: 27px;
+}
+
+.footerlink {
+  padding-left: 27px;
+  margin: 0;
+}
