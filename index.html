@@ -1,66 +1,66 @@
+<!--This is a slightly newer version of the google-homepage exercise. In the previous version I used <span> instead of lists and, unfortunately, I don't recall why. So i decided to make a new version using lists and adapting everything. Also, I decided not use <a> and go with plain text instead, for the sake of simplification and focus on placement and layout-->
+
 <!DOCTYPE html>
 
 <html>
+    <!--Checking examples from other students, I noticed they include other tags here, but since I haven't learned them yet, I'll use only what I have from following the proposed curriculum-->
     <head>
         <title>Fake Google Webpage</title>
-        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         
     </head>
-  
-  <body>
-    <div id="topnav">
-      <div id="navbar">
-        <span class="linknav"><a href="#">Gmail</a></span>
-        <span class="linknav"><a href="#">Images</a></span>
-        <span class="linknav"><a href="#">Apps</a></span>
-        <span class="linknav"><a class="signbutton" href="#"><button id="signin">Sign in</button></a></span>
-      </div>
-    </div>
-    
-    
-    <div id="logo">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-    </div>
-             
-    <div id="form">
-      <form>
-        <input>
-      </form>
-    </div>  
-     
-    <div id="buttons">
-      <span><button class="searchbutton">Google Search</button></span>
-      <span><button class="searchbutton">I'm Feeling Lucky</button></span>
-    </div>
-    
-    
-    
-    
-    <div id="footer">
-      
-      <div id="country">
-        <p>Atlantida</p>
-      </div>
-      
-      <div id="footer2">
-        
-        <div id="leftfooter">
-          <span><a class="footerlink" href="#">Advertising</a></span>
-          <span><a class="footerlink" href="#">Business</a></span>
-          <span><a class="footerlink" href="#">About</a></span>
-          <span><a class="footerlink" href="#">How Search works</a></span>
+
+    <body>
+        <!--Here is the top navigation section-->
+        <div id="topnav">
+            <ul>
+                <li class="linknav">Gmail</li>
+                <li class="linknav">Images</li>
+                <li class="linknav">Apps</li>
+                <li><button id="signin">Sign in</button></li>
+            </ul>
         </div>
-        
-        <div id="rightfooter">
-          <span><a class="footerlink" href="#">Privacy</a></span>
-          <span><a class="footerlink" href="#">Terms</a></span>
-          <span><a class="footerlink" href="#">Settings</a></span>
+
+        <!--Here is the central section, with Google logo, the search bar and the submit buttons-->
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
         </div>
-      
-      </div>
-    
-    </div>
-    
+
+        <div id="form">
+            <form><input></form>
+        </div>
+
+        <div>
+            <ul id="buttons">
+                <li><button class="searchbutton">Google Search</button></li>
+                <li><button class="searchbutton">I'm Feeling Lucky</button></li>
+            </ul>
+        </div>
+
+        <!--And, finally, here is the footer section-->
+        <div id="footer">
+            <div id="country">
+                <p>Atlantida</p>
+            </div>
+
+            <div id="footer2">
+                <div>
+                    <ul id="leftfooter">
+                        <li>Advertising</li>
+                        <li>Business</li>
+                        <li>About</li>
+                        <li>How Search Works</li>
+                    </ul>
+                </div>
+
+                <div id="rightfooter">
+                    <ul>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li>Settings</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>    
     </body>
-</html>
